@@ -1,0 +1,11 @@
+cats (id, name, created_at)
+
+products (id, name, desc, img, price, pieces_no, cat_id, created_at)
+
+orders (id, name, email, phone, address, status, created_at)
+
+order_details (id, order_id, product_id, qty)
+
+---------------------
+
+admins (id, name, email, password, is_super, created_at)
